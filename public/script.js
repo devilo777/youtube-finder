@@ -1,3 +1,4 @@
+alert("JS Loaded");
 let nextToken = "";
 let prevTokens = [];
 let page = 1;
