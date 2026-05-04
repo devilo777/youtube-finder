@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🚀 Creator Finder</h1>
+</header>
+
+<div class="controls">
+  <input id="keyword" placeholder="Search e.g. minecraft youtubers">
+
+  <select id="subs">
+    <option value="0-10000">1K–10K</option>
+    <option value="10000-100000">10K–100K</option>
+    <option value="100000-1000000">100K–1M</option>
+  </select>
+
+  <button onclick="search()">Search</button>
+</div>
+
+<div id="results"></div>
+
+<div class="pagination">
+  <button onclick="prevPage()">⬅</button>
+  <span id="page">1</span>
+  <button onclick="nextPage()">➡</button>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
