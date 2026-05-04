@@ -4,6 +4,7 @@ let prevTokens = [];
 let page = 1;
 
 async function search(reset = true) {
+    alert("Search clicked");  // 👈 add this
     const keyword = document.getElementById("keyword").value;
     const [minSubs, maxSubs] = document.getElementById("subs").value.split("-");
 
